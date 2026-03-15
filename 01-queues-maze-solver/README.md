@@ -43,10 +43,10 @@ The application `Thiseas` simulates a pathfinding algorithm to find an exit in a
 4.  **Termination:** The process continues until the `solved()` method detects that the current position is on the boundaries of the grid (exit found) or the stack becomes empty (no path exists).
 5.  **Output:** The program prints the exit coordinates (if found) and the final grid state, showing the cells that were explored during the process.
 
-## 🚀 Execution
+## Execution
 To compile and run the Maze Solver:
 ```bash
 cd src
 javac *.java
-java Thiseas maze.txt
+java Thiseas data/maze.txt
 ```
